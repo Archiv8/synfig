@@ -11,8 +11,8 @@
 # [ToDo]: Add files: Tooling
 # [FixMe]: Namcap warnings and errors
 
-# Maintainer: Ross Clark <https://github.com/Archiv8/synfig-core/discussions>
-# Contributor: Ross Clark <https://github.com/Archiv8/synfig-core/discussions>
+# Maintainer: Ross Clark <https://github.com/Archiv8/synfig/discussions>
+# Contributor: Ross Clark <https://github.com/Archiv8/synfig/discussions>
 
 #_langname=""
 _relname="synfig"
