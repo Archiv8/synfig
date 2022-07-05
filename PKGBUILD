@@ -11,8 +11,8 @@
 # [ToDo]: Add files: Tooling
 # [FixMe]: Namcap warnings and errors
 
-# Maintainer: Ross Clark <https://github.com/Archiv8/synfig/discussions>
-# Contributor: Ross Clark <https://github.com/Archiv8/synfig/discussions>
+# Maintainer: Ross Clark <https://github.com/Archiv8/synfig-core/discussions>
+# Contributor: Ross Clark <https://github.com/Archiv8/synfig-core/discussions>
 
 #_langname=""
 _relname="synfig"
@@ -37,7 +37,7 @@ license=("GPL2")
 depends=(
   "boost-libs"
   "cairo"
-  "ffmpeg"
+  "ffmpeg4.4"
   "fftw"
   "fontconfig"
   "freetype2"
@@ -53,7 +53,7 @@ depends=(
   "ocl-icd"
   "openexr"
   "pango"
-  "etl=${pkgver}"
+  "etl>=${pkgver}"
   "zlib"
 )
 optdepends=(
@@ -72,9 +72,13 @@ provides=(
 )
 conflicts=(
   "synfig"
+  "synfig-dev"
+  "synfig-git"
 )
 replaces=(
   "synfig"
+  "synfig-dev"
+  "synfig-git"
 )
 # backup=()
 # options=()
